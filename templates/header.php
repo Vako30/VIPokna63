@@ -20,11 +20,11 @@ endif; */
                                 <li class="first leaf active-trail"><a href="/" class="active-trail active">Главная</a></li>
                                 <li class="leaf"><a href="/about">О компании</a></li>
                                 <li class="leaf"><a href="/kalkulyator">Калькулятор</a></li>
-                                <li class="leaf"><a href="products.html" title="">Продукция</a></li>
+                                <li class="leaf"><a href="/products" title="">Продукция</a></li>
                                 <li class="leaf"><a href="/articles" title="">СТАТЬИ</a></li>
-                                <li class="leaf"><a href="photogallery.html">ФОТОГАЛЕРЕЯ</a></li>
-                                <li class="leaf"><a href="news_promo.html" title="">НОВОСТИ/АКЦИИ</a></li>
-                                <li class="last leaf"><a href="contacts.html">КОНТАКТЫ</a></li>
+                                <li class="leaf"><a href="/photogallery">ФОТОГАЛЕРЕЯ</a></li>
+                                <li class="leaf"><a href="/news_promo" title="">НОВОСТИ/АКЦИИ</a></li>
+                                <li class="last leaf"><a href="/contacts">КОНТАКТЫ</a></li>
                             </ul>
                         </div>
 
