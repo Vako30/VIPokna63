@@ -17,11 +17,11 @@ endif; */
 
                         <div class="content">
                             <ul class="menu">
-                                <li class="first leaf active-trail"><a href="home.html" class="active-trail active">Главная</a></li>
-                                <li class="leaf"><a href="about.html">О компании</a></li>
-                                <li class="leaf"><a href="kalkulyator.html">Калькулятор</a></li>
+                                <li class="first leaf active-trail"><a href="/" class="active-trail active">Главная</a></li>
+                                <li class="leaf"><a href="/about">О компании</a></li>
+                                <li class="leaf"><a href="/kalkulyator">Калькулятор</a></li>
                                 <li class="leaf"><a href="products.html" title="">Продукция</a></li>
-                                <li class="leaf"><a href="articles.html" title="">СТАТЬИ</a></li>
+                                <li class="leaf"><a href="/articles" title="">СТАТЬИ</a></li>
                                 <li class="leaf"><a href="photogallery.html">ФОТОГАЛЕРЕЯ</a></li>
                                 <li class="leaf"><a href="news_promo.html" title="">НОВОСТИ/АКЦИИ</a></li>
                                 <li class="last leaf"><a href="contacts.html">КОНТАКТЫ</a></li>
