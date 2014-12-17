@@ -1,0 +1,127 @@
+#admin-menu { /* Фиксим админ меню */
+	margin-right: 0px;
+}
+
+#admin-menu a { /* Фиксируем оформление админ меню */
+	color: #FAFAFA;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+.local-tasks {
+	min-width: 250px;
+	min-height: 100px;
+	position: fixed;
+	left: -262px;
+	top: 150px;
+	z-index: 500;
+	background: #EEEEEE;
+	border: 2px solid #9A9A9A;
+	padding: 2px 4px 2px 4px;
+	moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	border-radius: 2px 2px 2px 2px;
+	behavior: url(/PIE.php);
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#block-webform-client-block-8 {
+	position: absolute;
+	right: 0;
+	top: 70px;
+	z-index: 500;
+	width: 64px;
+	height: 127px;
+}
+
+.page-node-24 #block-webform-client-block-8 {
+	margin-right: 130px;
+}
+
+.page-node-24 #block-webform-client-block-8 .block-inner {
+	position: relative;
+}
+
+#block-webform-client-block-8 .block-inner {
+	position: fixed;
+}
+
+.local-tasks:hover {
+	left: 0px;
+}
+
+.local-tasks h2, #block-webform-client-block-8 h2 {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	position: absolute;
+	left: 260px;
+	top: 2px;
+	width: 30px;
+	height: 99px;
+	clip: auto;
+	background: url("//img/gen-menu.png");
+	font-size: 0px;
+}
+
+ul.tabs {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 12px;
+	border-bottom: 0px solid #C5C5C5;
+	margin: 0px;
+	padding: 0px;
+}
+ 
+ul.tabs li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: relative;
+	top: 0px;
+	behavior: url(/PIE.php);
+	margin: 2px 0px 2px 0px;
+}
+ 
+ul.tabs li a:link,
+ul.tabs li a:visited {
+	display: block;
+	background: -webkit-linear-gradient(top, #FEFEFE 0%, #E0E0E0 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(to bottom, #FEFEFE 0%, #E0E0E0 100%) repeat scroll 0 0 transparent;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 2px #CCCCCC, 0 1px 1px white inset;
+	font: 500 14px/14px "Open Sans",Arial,sans-serif;
+	margin: 1px;
+	padding: 6px 30px;
+	text-decoration: none;
+	color: #5A5A5A;
+	cursor: pointer;
+	overflow: hidden;
+}
+ 
+ul.tabs li a:hover,
+ul.tabs li a:active,
+ul.tabs li a.active:link,
+ul.tabs li a.active:visited {
+	background: -webkit-linear-gradient(top, #36A2F6 0%, #2F88CD 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(to bottom, #36A2F6 0%, #2F88CD 100%) repeat scroll 0 0 transparent;
+	border: 1px solid #2F88CD;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 2px #CCCCCC, 0 1px 1px #7BB8EF inset;
+	color: #FFFFFF;
+	font: 500 14px/14px "Open Sans",Arial,sans-serif;
+	margin: 1px;
+	padding: 6px 30px;
+	text-decoration: none;
+}
+ 
+ul.tabs.secondary {
+	position: relative;
+	top: -1px;
+}
