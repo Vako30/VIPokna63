@@ -63,6 +63,7 @@
 		  $(this).addClass('active-trail');
 	  });
 
+
 // SLIDESHOW FRONT PAGE
 
     $('#block-views-slides_front_page-block .views-row').wrapAll('<div id="slider" class="sl-slider-wrapper"></div><!-- /slider-wrapper -->');

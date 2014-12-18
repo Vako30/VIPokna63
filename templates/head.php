@@ -35,6 +35,8 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/style.css"/>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/custom.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.css"/>
+
 
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.once.js"></script>
