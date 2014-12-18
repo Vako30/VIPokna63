@@ -82,8 +82,8 @@ Template Name: kalkulyator
                                                                                 <input type="radio" class="form-radio" id="id5" name="first" />
                                                                                 <label for="id5"></label></div>
                                                                         </div>
-                                                                        <img src="/img/windows.png" class="windows" alt="" />
-                                                                        <img src="img/dver.jpg" class="dver" alt="">
+                                                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/windows.png" class="windows" alt="" />
+                                                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/dver.jpg" class="dver" alt="">
                                                                         <label class="lab1" for="one">Глухое окно</label>
                                                                         <label class="lab2" for="one">Арочное окно</label>
                                                                         <label class="lab3" for="one">Арочное окно</label>
