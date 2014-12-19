@@ -2,8 +2,8 @@
 <!-- /columns -->
     <div id="secondaryContent">
         <div class="owl-carousel">
-            <div><img src="<?php bloginfo('template_url'); ?>/assets/img/slide1.jpg"></div>
-            <div><img src="<?php bloginfo('template_url'); ?>/assets/img/retro_dra_69.jpg"></div>
+            <div class="general-slider"><img class="" src="<?php bloginfo('template_url'); ?>/assets/img/slide1.jpg"></div>
+            <div class="general-slider"><img src="<?php bloginfo('template_url'); ?>/assets/img/retro_dra_69.jpg"></div>
         </div>
         <div class="region region-secondary-content">
             <div id="block-block-3" class="block block-block">
@@ -47,32 +47,29 @@
 
                     <div class="content">
                         <div class="box alone">
-                            <div class="what1">
-                                <p><span style="font-size:18px;"><strong><span
-                                                style="color:#ff0000;">VIP-OKNA</span></strong><span
-                                            style="color:#000000;"><strong> </strong>- это окна, которые прослужат Вам долгие годы.</span></span>
+                            <div class="col-xs-12 col-md-4 what">
+                                <img style="margin:0 auto; float:none" alt="" src="<?php bloginfo('template_url'); ?>/assets/img/heart.png"/>
+                                <p style="font-size:14px; font-family:arial,helvetica,sans-serif;">
+                                    <strong><span class="h1">КАЧЕСТВО</span></strong>
+                                    <span class="text">Гварантия высочайшего качества нашей продукции.</span>
                                 </p>
-
-                                <div>
-                                    <img alt="" src="<?php bloginfo('template_url'); ?>/assets/img/heart.png"/><span style="font-size:14px;"><span
-                                            style="font-family:arial,helvetica,sans-serif;"><span
-                                                style="color:#ff0000;"><strong><span class="h1">КАЧЕСТВО</span> </strong></span><span
-                                                class="text"> Гварантия высочайшего качества нашей продукции.</span></span></span>
-                                </div>
                             </div>
-                            <div class="what2">
-                                <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"><img
-                                            alt="" src="<?php bloginfo('template_url'); ?>/assets/img/calcul.png"/><span style="color:#000080;"><strong><span
-                                                    class="h1">ЦЕНА</span></strong> </span>Приемлимые цены, и скидки для постоянных клиентов.</span></span>
+                            <div class="col-xs-12 col-md-4 what">
+                                <img style="margin:0 auto; float:none" alt="" src="<?php bloginfo('template_url'); ?>/assets/img/calcul.png"/>
+                                <p style="font-size:14px; font-family:arial,helvetica,sans-serif;">
+                                    <strong><span class="h1">ЦЕНА</span></strong>
+                                    <span class="text">Приемлимые цены, и скидки для постоянных клиентов.</span>
+                                </p>
                             </div>
-                            <div class="what3">
-                                <span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;"><img
-                                            alt="" src="<?php bloginfo('template_url'); ?>/assets/img/clock.png"/><strong> <span style="color:#006400;"><span
-                                                    class="h1">СЖАТЫЕ СРОКИ</span></span></strong><span
-                                            style="color:#006400;"> </span>Выполнение работ любой сложности в сжатые сроки.</span></span>
+                            <div class="col-xs-12 col-md-4 what">
+                                <img style="margin:0 auto; float:none" alt="" src="<?php bloginfo('template_url'); ?>/assets/img/clock.png"/>
+                                <p style="font-size:14px; font-family:arial,helvetica,sans-serif;">
+                                    <strong><span class="h1">СЖАТЫЕ СРОКИ</span></strong>
+                                    <span class="text">Выполнение работ любой сложности в сжатые сроки.</span>
+                                </p>
                             </div>
                         </div>
-                        <p> </p>
+                        <div style="clear:both"></div>
                     </div>
 
                 </div>

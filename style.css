@@ -43,7 +43,10 @@ li {
     list-style-type: none;
     display: inline-block;
 }
-
+.general-slider{
+    max-height:620px;
+    overflow: hidden;
+}
 div.error {
     display: none!important;
 }
@@ -605,33 +608,33 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
     font-weight: bold;
 }
 
-div.what1 {
-    width: 320px;
+div.what {
     border-right: 1px solid #dadada;
     padding-top: 15px;
     display: inline-block;
     vertical-align: top;
     padding-bottom: 40px;
+    text-align:center
 }
 
-div.what1 > div {
+div.what > div {
     margin-top: 14px;
 }
 
-div.what1 img {
+div.what img {
     margin-left: 20px;
 }
 
-div.what1 .h1 {
+div.what .h1 {
     color: #d83232;
     font-weight: bold;
 }
 
-div.what1 span:nth-child(1) {
+div.what span:nth-child(1) {
     font-size: 25px;
 }
 
-div.what1 span:nth-child(2) {
+div.what span:nth-child(2) {
     margin: 0;
     font-family: 'OpenSans';
     font-size: 16px;
