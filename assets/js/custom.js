@@ -10,7 +10,7 @@
   	$('.view-production').prepend('<div id="prodMenu"><div class="box"></div></div>');
   	$('.view-production .views-field-title').clone().addClass('top_buttons').appendTo('#prodMenu .box');
   	$('.view-production .view-content').addClass('text_prod');
-  	$('.view-production .views-row').append('<div class="count"> <a href="/kalkulyator">РАССЧИТАТЬ СТОИМОСТЬ</a></div>')
+  	$('.view-production .views-row').append('<button type="button" class="btn count"> <a href="/kalkulyator">РАССЧИТАТЬ СТОИМОСТЬ</a></button>')
 
   	$( ".top_buttons" ).click(function() {
   		$( ".top_buttons" ).removeClass('active');
