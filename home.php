@@ -2,13 +2,8 @@
 <!-- /columns -->
     <div id="secondaryContent">
         <div class="owl-carousel">
-            <div style="background:#ccc"> Your Content 4</div>
-            <div style="background:#5A5A5A"> Your Content 10</div>
-            <div> Your Content 60</div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
+            <div><img src="<?php bloginfo('template_url'); ?>/assets/img/slide1.jpg"></div>
+            <div><img src="<?php bloginfo('template_url'); ?>/assets/img/retro_dra_69.jpg"></div>
         </div>
         <div class="region region-secondary-content">
             <div id="block-block-3" class="block block-block">

@@ -41,14 +41,12 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/owl.theme.default.min.css"/>
 
 
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.once.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/drupal.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/admin_devel.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/ru_13BVCpNT71z7067b2hM0SkXyZ514TFv9Rw80CCBSUBo.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.colorbox-min.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/colorbox.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/colorbox_style.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/webform.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/modernizr.custom.34807.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/modernizr.custom.79639.js"></script>

@@ -2,15 +2,6 @@
 
   $(document).ready(function() {
 
-      $(".owl-carousel").owlCarousel({
-          animateOut: 'slideOutDown',
-          animateIn: 'flipInX',
-          items:1,
-          margin:30,
-          stagePadding:30,
-          smartSpeed:450
-      });
-		
 		$('.view-production .views-field-title').each(function(index, el) {
 				var i = index + 1;
 				$(this).addClass('b' + i);
@@ -52,7 +43,7 @@
 
   	$('.views-field-field-active-promo').append('<div class="line"></div>');
   	$('.view-display-id-page_2 .views-row').prepend('<div class="line"></div>');
-  	
+
 
 // MAIN MENU
 
@@ -90,14 +81,14 @@
 		$('#block-views-slides_front_page-block .views-row-5').wrap('<div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5"> <div class="sl-slide-inner"> </div> </div>');
 
 // OPENING FOLDER
-	
+
 	if ( !$("body").hasClass("page-node-24") ) {
 		$('#block-webform-client-block-8 .content').prepend('<div class="uc-initial-content"> <!-- custom content --> <span class="clickme">ОБРАТНАЯ СВЯЗЬ</span> </div>');
 
 		$('#block-webform-client-block-8 .content').wrapInner('<div id="uc-container" class="uc-container"> </div>');
 
 		$('#block-webform-client-block-8 .content form').wrap('<div class="uc-final-content"></div>');
-		
+
 		$('#block-webform-client-block-8 .content form').append('<span class="close">x</span>');
 	}
 		$('#webform-component-name input').attr('placeholder', 'Ваше имя');
@@ -128,7 +119,7 @@
 // INIT OF SLIDESHOW FRONT PAGE
 
 		var Page = (function() {
-			
+
 			var $navArrows = $( '#nav-arrows' ),
 				$nav = $( '#nav-dots > span' ),
 				slitslider = $( '#slider' ).slitslider( {
@@ -143,7 +134,7 @@
 				init = function() {
 
 					initEvents();
-					
+
 				},
 				initEvents = function() {
 
@@ -156,30 +147,30 @@
 					} );
 
 					$navArrows.children( ':first' ).on( 'click', function() {
-						
+
 						slitslider.previous();
 						return false;
 
 					} );
 
 					$nav.each( function( i ) {
-					
+
 						$( this ).on( 'click', function( event ) {
-							
+
 							var $dot = $( this );
-							
+
 							if( !slitslider.isActive() ) {
 
 								$nav.removeClass( 'nav-dot-current' );
 								$dot.addClass( 'nav-dot-current' );
-							
+
 							}
-							
+
 							slitslider.jump( i + 1 );
 							return false;
-						
+
 						} );
-						
+
 					} );
 
 				};
@@ -191,15 +182,15 @@
 		Page.init();
 
 		/**
-		 * Notes: 
-		 * 
+		 * Notes:
+		 *
 		 * example how to add items:
 		 */
 
 		/*
-		
+
 		var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
-		
+
 		// call the plugin's add method
 		ss.add($items);
 
@@ -213,15 +204,15 @@
 		//Initialize variable
 		item 			= $('.item a');
 		itemReverse	= item.get().reverse();
-		
+
 		//Arrow up clicked
 		$('#arrow-up').on('click', function() {
-			
+
 			$('.dock').addClass('dock-show');
 			$('#arrow').hide();
-			
+
 			$.each(item, function() {
-				
+
 				var i 	 = $(this).index();
 				var delay = i * 100;
 
@@ -232,15 +223,15 @@
 				} (i), delay);
 			});
 		});
-		
+
 		//Arrow down clicked
 		$('#arrow-down').on('click', function() {
-			
+
 			$('.dock').removeClass('dock-show');
 			$('#arrow').show();
-			
+
 			$.each(itemReverse, function() {
-				
+
 				var i 	 = $(this).index();
 				var delay = i * 100;
 
@@ -251,7 +242,7 @@
 				} (i), delay);
 			});
 		});
-		
+
 		//Item hovered
 		$('.item a').hover(function() {
 			$(this).stop().animate({ 'top' : '-5.4em' }, 'fast');
@@ -262,9 +253,18 @@
 		$('.menu_box .under_menu .img_link').each(function(index, el) {
 			$(arr[index]).attr('href', $(this).attr('href'));
 		});
-		
 
+      $(".owl-carousel").owlCarousel({
+          animateOut: 'slideOutDown',
+          animateIn: 'flipInX',
+          items:1,
+          margin:0,
+          stagePadding:0,
+          smartSpeed:450
+      });
 
   });
 } (jQuery));
+
+
 
