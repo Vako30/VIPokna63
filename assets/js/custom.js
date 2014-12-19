@@ -1,6 +1,15 @@
 (function($) {
 
   $(document).ready(function() {
+
+      $(".owl-carousel").owlCarousel({
+          animateOut: 'slideOutDown',
+          animateIn: 'flipInX',
+          items:1,
+          margin:30,
+          stagePadding:30,
+          smartSpeed:450
+      });
 		
 		$('.view-production .views-field-title').each(function(index, el) {
 				var i = index + 1;

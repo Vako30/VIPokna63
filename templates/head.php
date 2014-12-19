@@ -36,6 +36,9 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/custom.css"/>
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/owl.theme.default.min.css"/>
 
 
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.min.js"></script>
@@ -53,6 +56,7 @@
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.pfold.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/jquery.ba-cond.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/custom.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/assets/js/owl.carousel.min.js"></script>
     <!-- Bootstrap -->
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
