@@ -4,64 +4,77 @@ Template Name: about
 */
 ?>
 <div id="page">
-
     <div id="columns">
         <div id="mainContent">
-
             <div class="local-tasks"></div>
-
-
             <div id="content">
-
                 <div class="region region-content">
                     <div id="block-system-main" class="block block-system">
                         <div class="block-inner">
-
-
                             <div class="content">
                                 <div id="node-6" class="node node-page" about="/about" typeof="foaf:Document">
                                     <div class="node-inner clearfix">
-
-
                                         <div class="node-content">
                                             <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                                                 <div class="field-item even" property="content:encoded">
                                                     <div class="out out-pattern" style="opacity: 1;">
                                                         <div>
-                                                                <span style="font-family:arial,helvetica,sans-serif;"><span
-                                                                        style="font-size:20px;"><span
-                                                                            style="color:#ff0000;">«VIP-ОКНА»</span> — это производитель окон, который начал свое развитие в 1993 в Армении, и два года назад начали свою деятельность в городе Самара. За это время мы успели заслужить доверие и уважение многих клиентов.<span
-                                                                            style="color:#ff0000;"> Мы работаем качественно, выполняя даже самые сложные заказы точно в срок.</span></span></span>
+                                                            <span style="font-family:arial,helvetica,sans-serif;">
+                                                                <span style="font-size:20px;">
+                                                                    <span style="color:#ff0000;">«VIP-ОКНА»</span>
+                                                                    — это производитель окон, который начал свое развитие в 1993 в Армении,
+                                                                    и два года назад начали свою деятельность в городе Самара. За это время
+                                                                    мы успели заслужить доверие и уважение многих клиентов.
+                                                                    <span style="color:#ff0000;"> Мы работаем качественно, выполняя даже самые сложные
+                                                                        заказы точно в срок.</span>
+                                                                </span>
+                                                            </span>
                                                         </div>
-                                                        <div>
-                                                             
-                                                        </div>
-                                                        <div>
-                                                             
-                                                        </div>
-                                                        <p class="rtejustify"><span style="color:#000000;"><span
-                                                                    style="font-family:arial,helvetica,sans-serif;"><span
-                                                                        style="font-size:20px;"><img alt=""
-                                                                                                     style="float: right; width: 292px; height: 299px; margin: 5px; border-width: 0px; border-style: solid;"/></span></span></span>
+                                                        <p class="rtejustify">
+                                                            <span style="color:#000000;">
+                                                                <span style="font-family:arial,helvetica,sans-serif;">
+                                                                    <span style="font-size:20px;">
+                                                                        <img alt="" src="<?php bloginfo('template_url'); ?>/assets/img/download.jpg" style="float: right; width: 292px; height: 299px; margin: 5px; border-width: 0px; border-style: solid;"/>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
                                                         </p>
 
-                                                        <p class="rtejustify"><span style="color:#000000;"><span
-                                                                    style="font-size:20px;"><span
-                                                                        style="font-family:arial,helvetica,sans-serif;">Пластиковые окна на сегодняшний день являются незаменимым элементом дизайнерских решений, приносящим в дом солнечный свет, тепло и уют. На рынке оконной индустрии представлен широкий выбор разноплановых оконных конструкций. </span></span></span><span
-                                                                style="color:#ff0000;"><span
-                                                                    style="font-size:20px;"><span
-                                                                        style="font-family:arial,helvetica,sans-serif;">Мы не устанавливаем дешевых окон.</span></span></span><span
-                                                                style="color:#000000;"><span
-                                                                    style="font-size:20px;"><span
-                                                                        style="font-family:arial,helvetica,sans-serif;"> Только надёжные, проверенные марки, но по приемлемым ценам. И не стоит забывать о технологии установки окон ПВХ - неправильный монтаж сокращает срок службы даже идеально изготовленного окна. </span></span></span>
+                                                        <p class="rtejustify">
+                                                            <span style="color:#000000;">
+                                                                <span style="font-size:20px;">
+                                                                    <span style="font-family:arial,helvetica,sans-serif;">Пластиковые окна на сегодняшний день являются
+                                                                        незаменимым элементом дизайнерских решений, приносящим в дом
+                                                                        солнечный свет, тепло и уют. На рынке оконной индустрии
+                                                                        представлен широкий выбор разноплановых оконных конструкций.
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                            <span style="color:#ff0000;">
+                                                                <span style="font-size:20px;">
+                                                                    <span style="font-family:arial,helvetica,sans-serif;">Мы не устанавливаем дешевых окон.</span>
+                                                                </span>
+                                                            </span>
+                                                            <span style="color:#000000;">
+                                                                <span style="font-size:20px;">
+                                                                    <span style="font-family:arial,helvetica,sans-serif;"> Только надёжные, проверенные марки,
+                                                                        но по приемлемым ценам. И не стоит забывать о технологии
+                                                                        установки окон ПВХ - неправильный монтаж сокращает срок
+                                                                        службы даже идеально изготовленного окна. 
+                                                                    </span>
+                                                                </span>
+                                                            </span>
                                                         </p>
                                                     </div>
                                                     <div>
                                                          
                                                     </div>
                                                     <p style="margin: 10px 0px 20px; padding: 0px; color: rgb(61, 61, 64); font-family: Calibri, Helvetica, Arial; font-size: 20px; line-height: 24px;">
-                                                        <strong><span style="color:#000000;"><span
-                                                                    style="font-size:20px;">Мы рады предложить Вам:</span></span></strong>
+                                                        <strong>
+                                                            <span style="color:#000000;">
+                                                                <span style="font-size:20px;">Мы рады предложить Вам:</span>
+                                                            </span>
+                                                        </strong>
                                                     </p>
 
                                                     <p> </p>

@@ -58,6 +58,10 @@
     	$(this).next().find('img').wrap('<a href="'+ href + '" class="img_link"></a>');
     	$(this).next().wrap('<a href="'+ href + '"></a>');
     });
+	  $('.menu div').click(function(){
+		  $('ul.menu div').child().children('.under_menu').removeClass('active-trail');
+		  $(this).addClass('active-trail');
+	  });
 
 // SLIDESHOW FRONT PAGE
 

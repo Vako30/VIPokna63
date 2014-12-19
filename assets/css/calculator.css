@@ -1,235 +1,598 @@
-#calculator-box{position: relative;display:none;}
-.clear{clear:both;}
-.active{opacity:1 !important;}
-#area > div{display:none;}
-.activeArea{display:block !important;}
-.calculator_menu{background:url('//img/calculator-menu.png') no-repeat;width:103px;height:93px;float:left;cursor:pointer;margin-right:55px;}
-#area-window{margin-top:10px;}
+#calculator-box {
+    position: relative;
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+#area > div {
+    display: none;
+}
+
+.activeArea {
+    display: block !important;
+}
+
+.calculator_menu {
+    background: url('//img/calculator-menu.png') no-repeat;
+    width: 103px;
+    height: 93px;
+    float: left;
+    cursor: pointer;
+    margin-right: 55px;
+}
+
+#area-window {
+    margin-top: 10px;
+}
+
 /*#calculator-box select{background:url('/img/option-down.jpg') 0px 0px no-repeat;}*/
-#calculator-box input, #calculator-box select{outline:none;}
-#calculator-menu > div {opacity:0.5;}
-#window{background-position:0px 0px;}
-#balconies{background-position: -140px 0px;}
-#doors{background-position: -280px 0px;}
-#calculator-menu{width: 474px;margin: auto;}
-#calculator-left-area{float:left;width:420px;}
-#calculator-right-area{width:397px;float:left;margin-top:27px;}
+#calculator-box input, #calculator-box select {
+    outline: none;
+}
+
+#calculator-menu > div {
+    opacity: 0.5;
+}
+
+#window {
+    background-position: 0px 0px;
+}
+
+#balconies {
+    background-position: -140px 0px;
+}
+
+#doors {
+    background-position: -280px 0px;
+}
+
+#calculator-menu {
+    width: 474px;
+    margin: auto;
+}
+
+#calculator-left-area {
+    float: left;
+    width: 420px;
+}
+
+#calculator-right-area {
+    width: 397px;
+    float: left;
+    margin-top: 27px;
+}
+
 /**/
 
 #structures > label.lab7 {
-	margin-right: 0;
-	margin-left: 9px;
+    margin-right: 0;
+    margin-left: 9px;
 }
+
 #structures > label.lab2 {
-	margin-left: 6px;
+    margin-left: 6px;
 }
+
 #structures > label.lab5 {
-	margin-left: 3px;
+    margin-left: 3px;
 }
+
 #structures > label.lab6 {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
 #structures > label {
-font-size: 16px;
-font-family: 'OpenSans';
-float: left;
-margin-right: 29px;
-font-weight: normal;
+    font-size: 16px;
+    font-family: 'OpenSans';
+    float: left;
+    margin-right: 29px;
+    font-weight: normal;
 }
+
 .radio {
-	width: 150px;
-	text-align: center;
-	float: left;
-	margin-right: 0px;
+    width: 150px;
+    text-align: center;
+    float: left;
+    margin-right: 0px;
 }
+
 #wind5 {
-	width: 10px;
+    width: 10px;
 }
+
 #wind1 {
-width: 130px;
+    width: 130px;
 }
+
 #wind2 {
-width: 137px;
+    width: 137px;
 }
-#structures img{border:0;margin-left:20px;margin-top:-15px;pointer-events:none;}
-#structures .title{text-align:left;}
-#type-structures{height: 35px;
-width: 140px;
-display: inline-block;}
+
+#structures img {
+    border: 0;
+    margin-left: 20px;
+    margin-top: -15px;
+    pointer-events: none;
+}
+
+#structures .title {
+    text-align: left;
+}
+
+#type-structures {
+    height: 35px;
+    width: 140px;
+    display: inline-block;
+}
+
 #structures {
-display: inline-block;
-vertical-align: top;
-width: 847px;
-margin-top: -5px;
+    display: inline-block;
+    vertical-align: top;
+    width: 847px;
+    margin-top: -5px;
 }
-#type-structures span{display:block;margin-left:39px;}
-#univalve-window{text-align:center;float:left;margin-right:39px;width:70px;}
-#double-wing-window{width:60px;text-align:center;float:left;margin-right:39px;}
-#tricuspid-window{width:121px;text-align:center;float:left;margin-right:0px;}
+
+#type-structures span {
+    display: block;
+    margin-left: 39px;
+}
+
+#univalve-window {
+    text-align: center;
+    float: left;
+    margin-right: 39px;
+    width: 70px;
+}
+
+#double-wing-window {
+    width: 60px;
+    text-align: center;
+    float: left;
+    margin-right: 39px;
+}
+
+#tricuspid-window {
+    width: 121px;
+    text-align: center;
+    float: left;
+    margin-right: 0px;
+}
+
 /**/
-#size{margin-top:25px;}
-#total-size{}
-.v {float:left;margin-right: 45px;margin-left: 10px;margin-top: 7px;}
-#total-size input[type="text"]{width:60px;margin-bottom:3px;border:none;border-radius:6px;height:26px;padding-left:5px;margin-left:10px;margin-right:5px;}
-.v span{display:block;float:left;width: 63px; text-align: right;}
-#size .title{height: 60px;display: inline-block;float: left;}
-#calculator-right-area select{width: 123px;height: 23px;border: 2px solid #dfdfdf;margin-left: 45px;position: relative;top: -5px;} 
-#calculator-right-area .s{float:left;margin: 0px 15px 30px 15px;}
-.circle{color: #d83232;font-weight: bold;font-size: 24px;font-family: 'RexBold';text-align: center;vertical-align: top;width: 31px;height: 31px;float: left;;padding-top: 4px;;;padding-top: 11px;;;;padding-top: 5px;;;;;padding-top: 3px;;;;;;padding-top: 4px;;}
-.title span{float: left;}
-.title label{font-weight:500;}
-.circle + span{font-size: 17px;margin-left: 10px;margin-top: 9px;}
+#size {
+    margin-top: 25px;
+}
+
+#total-size {
+}
+
+.v {
+    float: left;
+    margin-right: 45px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+#total-size input[type="text"] {
+    width: 60px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 6px;
+    height: 26px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.v span {
+    display: block;
+    float: left;
+    width: 63px;
+    text-align: right;
+}
+
+#size .title {
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+
+#calculator-right-area select {
+    width: 123px;
+    height: 23px;
+    border: 2px solid #dfdfdf;
+    margin-left: 45px;
+    position: relative;
+    top: -5px;
+}
+
+#calculator-right-area .s {
+    float: left;
+    margin: 0px 15px 30px 15px;
+}
+
+.circle {
+    color: #d83232;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'RexBold';
+    text-align: center;
+    vertical-align: top;
+    width: 31px;
+    height: 31px;
+    float: left;;
+    padding-top: 4px;;;
+    padding-top: 11px;;;;
+    padding-top: 5px;;;;;
+    padding-top: 3px;;;;;;
+    padding-top: 4px;;
+}
+
+.title span {
+    float: left;
+}
+
+.title label {
+    font-weight: 500;
+}
+
+.circle + span {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
 /**/
-.chek input[type="checkbox"], .radio input[type="radio"] {position:absolute;left:-9999px;
+.chek input[type="checkbox"], .radio input[type="radio"] {
+    display: none;
+    position: absolute;
+    left: 22px;
 }
-.chek input[type="checkbox"] + label{
-background: url(/img/checkbox.png) 0 -30px no-repeat;
-padding-left: 20px;
-width: 14px;
-height: 13px;
-display: block;
+
+.chek input[type="checkbox"] + label {
+    background: url(../img/checkbox.png) 0 -30px no-repeat;
+    padding-left: 20px;
+    width: 14px;
+    height: 13px;
+    display: block;
 }
+
 .chek input[type="checkbox"]:checked + label {
-background-position: 0 5px;
+    background-position: 0 5px;
 }
 
 .radio input[type="radio"] + label {
-background: url(/img/uncheckc.png) 0 0 no-repeat;
-background-position: 0px -15px;
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
-height: 15px;
-font-size: 16px;
-display: flex;
-width: 15px;
-}
-#additionally .radio input[type="checkbox"] + label, 
-#delivery .radio input[type="checkbox"] + label{
-	padding-left: 22px;
-	height: 22px;
-	margin-bottom: 5px;
-	width: 100px;
-	vertical-align: top;
-	text-align: left;
-	margin-left: 22px;
+    background: url(../img/uncheckc.png) 0 0 no-repeat;
+    background-position: 0px -15px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    height: 15px;
+    font-size: 16px;
+    display: flex;
+    width: 15px;
 }
 
-#additionally .radio, 
+#additionally .radio input[type="checkbox"] + label,
+#delivery .radio input[type="checkbox"] + label {
+    padding-left: 22px;
+    height: 22px;
+    margin-bottom: 5px;
+    width: 100px;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 22px;
+}
+
+#additionally .radio,
 #delivery .radio {
-	margin-right:100px;
+    margin-right: 100px;
 }
+
 .radio input[type="radio"]:checked + label {
-background-position: 0 0px;
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border-radius: 0px;
-height: 15px;
+    background-position: 0 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    height: 15px;
 }
 
-.ch1{margin-top:10px;}
-.ch1 > div, .ch2 > div{margin-bottom:5px;}
-#area-window .ch1, .ch2{margin-top: 10px;float: left;width: 180px;}
-#delivery #d{margin-left: 115px;position: relative;top: 10px;}
-#montag #d{margin-left: 108px;position: relative;top: 10px;}
-#resultSend{display:none;}
+.ch1 {
+    margin-top: 10px;
+}
+
+.ch1 > div, .ch2 > div {
+    margin-bottom: 5px;
+}
+
+#area-window .ch1, .ch2 {
+    margin-top: 10px;
+    float: left;
+    width: 180px;
+}
+
+#delivery #d {
+    margin-left: 115px;
+    position: relative;
+    top: 10px;
+}
+
+#montag #d {
+    margin-left: 108px;
+    position: relative;
+    top: 10px;
+}
+
+#resultSend {
+    display: none;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#area-balconies{margin-top:10px;}
+#area-balconies {
+    margin-top: 10px;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#area-doors{margin-top:10px;}
-
+#area-doors {
+    margin-top: 10px;
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.center{text-align:center;display: block;margin:auto;}
-.title span,.titles span{}
-.titles span{
-padding: 6px 13px;
-float: left;
+.center {
+    text-align: center;
+    display: block;
+    margin: auto;
 }
-#calculator-left-area-balkon{width:503px;float:left;}
-#calculator-right-area-balkon{width:397px;float:left;text-align:left;font-size:14px;}
-#balkon-type #swing{width:251px;float:left;}
-#balkon-type #telescopic{width:251px;float:left;}
-#block-swing-all, #block-telescopic-all{height: 65px;width: 130px;margin: auto;}
-#swing-radio{margin-top: 23px;}
-#size-balkon, .steklopaket{margin-top: 50px;height:31px;}
-#size-balkon span{padding-top:5px;display:block;padding-left: 35px;}
-#balkon-size-height{}
-#balkon-size-width{}
-#block-size-balkon-all{float:left;margin-left: 60px;}
-#block-size-balkon-all .txt{width: 65px;display: block;float: left;}
-#block-steklopaket-balkon-all{float:left;}
 
-#calculator-right-area-balkon .s{float: left;margin: 0px 15px 30px 15px;}
-#calculator-right-area-balkon select, #block-steklopaket-balkon-all select{width: 123px;height: 23px;border: 2px solid #dfdfdf;margin-left: 45px;position: relative;top: -5px;}
-#select-balkon{}
-.checkbox{display:block;height:13px;width:14px;padding-left:20px;background:url(/img/checkbox.png) 0 0 no-repeat;}
-.chek input[type="checkbox"]:checked  + .checkbox{background-position: 0 -21px;}
-#parapet{width: 150px;}
-.parapet{position:relative;}
-.parapet .checkbox{}
-.dopBalkon{position: absolute;margin-left: 215px !important;}
-.vn{position: absolute;margin-left: 215px !important;margin-top: 90px !important;}
-
-#area-balconies .ch2{position: absolute;left: 170px;margin-top: 10px;top: 30px;}
-.rasp{position: relative;top: 20px;left: 5px;}
-
-#profBlock, #parapetBlock, #roof{
-	position:relative;
+.title span, .titles span {
 }
-#profBlock .checkbox, #parapetBlock .checkbox{
-position: absolute;
-right: 5px;
-bottom: 9px;
-}
-#roof .checkbox{
-	position: absolute;
-	bottom: 9px;
-	right: -69px;
-}
-.blockvnsh{margin-top:5px;}
-.blockvnsh label{
-width: 150px !important;
-display: block;
-float: left;
-margin-bottom:5px;
-font-weight:bold;
-}
-.blockvnsh input[type="text"]{
-	width:85px;
-}
-#resultCalculator-window{}
-#resultCalculator-balkon{}
 
-.resultSend{display:none;}
+.titles span {
+    padding: 6px 13px;
+    float: left;
+}
 
+#calculator-left-area-balkon {
+    width: 503px;
+    float: left;
+}
 
+#calculator-right-area-balkon {
+    width: 397px;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+}
+
+#balkon-type #swing {
+    width: 251px;
+    float: left;
+}
+
+#balkon-type #telescopic {
+    width: 251px;
+    float: left;
+}
+
+#block-swing-all, #block-telescopic-all {
+    height: 65px;
+    width: 130px;
+    margin: auto;
+}
+
+#swing-radio {
+    margin-top: 23px;
+}
+
+#size-balkon, .steklopaket {
+    margin-top: 50px;
+    height: 31px;
+}
+
+#size-balkon span {
+    padding-top: 5px;
+    display: block;
+    padding-left: 35px;
+}
+
+#balkon-size-height {
+}
+
+#balkon-size-width {
+}
+
+#block-size-balkon-all {
+    float: left;
+    margin-left: 60px;
+}
+
+#block-size-balkon-all .txt {
+    width: 65px;
+    display: block;
+    float: left;
+}
+
+#block-steklopaket-balkon-all {
+    float: left;
+}
+
+#calculator-right-area-balkon .s {
+    float: left;
+    margin: 0px 15px 30px 15px;
+}
+
+#calculator-right-area-balkon select, #block-steklopaket-balkon-all select {
+    width: 123px;
+    height: 23px;
+    border: 2px solid #dfdfdf;
+    margin-left: 45px;
+    position: relative;
+    top: -5px;
+}
+
+#select-balkon {
+}
+
+.checkbox {
+    display: block;
+    height: 13px;
+    width: 14px;
+    padding-left: 20px;
+    background: url(../img/checkbox.png) 0 0 no-repeat;
+}
+
+.chek input[type="checkbox"]:checked + .checkbox {
+    background-position: 0 -21px;
+}
+
+#parapet {
+    width: 150px;
+}
+
+.parapet {
+    position: relative;
+}
+
+.parapet .checkbox {
+}
+
+.dopBalkon {
+    position: absolute;
+    margin-left: 215px !important;
+}
+
+.vn {
+    position: absolute;
+    margin-left: 215px !important;
+    margin-top: 90px !important;
+}
+
+#area-balconies .ch2 {
+    position: absolute;
+    left: 170px;
+    margin-top: 10px;
+    top: 30px;
+}
+
+.rasp {
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+#profBlock, #parapetBlock, #roof {
+    position: relative;
+}
+
+#profBlock .checkbox, #parapetBlock .checkbox {
+    position: absolute;
+    right: 5px;
+    bottom: 9px;
+}
+
+#roof .checkbox {
+    position: absolute;
+    bottom: 9px;
+    right: -69px;
+}
+
+.blockvnsh {
+    margin-top: 5px;
+}
+
+.blockvnsh label {
+    width: 150px !important;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.blockvnsh input[type="text"] {
+    width: 85px;
+}
+
+#resultCalculator-window {
+}
+
+#resultCalculator-balkon {
+}
+
+.resultSend {
+    display: none;
+}
 
 #structures img.dver {
-margin-left: 30px;
+    margin-left: 30px;
 }
 
 #structures label.lab8 {
-margin-left: 30px;
-margin-right: 0;
+    margin-left: 30px;
+    margin-right: 0;
 }
 
+#wind3 {
+    width: 104px;
+}
 
-#wind3{width:104px;}
-#wind4{width:95px;}
+#wind4 {
+    width: 95px;
+}
 
-#select > div{float:left;width:500px;}
-#select{padding-bottom:50px;height:250px;}
+#select > div {
+    float: left;
+    width: 500px;
+}
 
-#select > div > div.title{float:left;}
-#select select{margin-left:20px;margin-top:10px;border:none;border-radius:6px;height:26px;padding-left:5px;}
+#select {
+    padding-bottom: 50px;
+    height: 250px;
+}
 
-#select #profil{margin-left:40px;}
-#select #steklopaket{margin-left:32px;}
-#paket{margin-top:20px;margin-bottom:40px;}
-#furnitura{margin-top:40px;}
-#opt1{margin-top:10px;}
-#delivery > div.title > span{margin-right:100px;margin-bottom:11px;}
+#select > div > div.title {
+    float: left;
+}
+
+#select select {
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    height: 26px;
+    padding-left: 5px;
+}
+
+#select #profil {
+    margin-left: 40px;
+}
+
+#select #steklopaket {
+    margin-left: 32px;
+}
+
+#paket {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#furnitura {
+    margin-top: 40px;
+}
+
+#opt1 {
+    margin-top: 10px;
+}
+
+#delivery > div.title > span {
+    margin-right: 100px;
+    margin-bottom: 11px;
+}
