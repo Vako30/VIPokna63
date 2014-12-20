@@ -17,6 +17,10 @@ html {
     padding: 0;
 }
 
+.clear{
+    clear: both;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -61,7 +65,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 12px;
-    font-family: 'RexBold',Sans-Serif;
+    font-family: 'OpenSans;
     background: url(assets/img/bg_texture.png) repeat;
 }
 
@@ -90,9 +94,6 @@ body {
     color: #d83232;
     font-size: 34px;
     font-weight: bold;
-    padding-top: 6px;
-    padding-left: 7px;
-    padding-right: 25px;
     width: auto;
     vertical-align: top;
 }
@@ -168,12 +169,12 @@ ul.menu li a:hover {
 }
 
 #page {
+    float: none;
     width: 100%;
     min-height: 240px;
 }
 
 #columns {
-    width: 1000px;
     margin: 0 auto;
     min-height: 100%;
 }
@@ -394,8 +395,11 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
 }
 
 .view-products .views-row > div {
-    display: inline-block;
     vertical-align: top;
+}
+
+.article{
+    text-align: center;
 }
 
 .view-products .views-row-1 {
@@ -444,6 +448,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
 #content .view-display-id-page_2 .views-field-body {
     margin-top: -130px;
     margin-left: 267px;
+
+}
+
+.view-text{
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    min-width: 400px !important;
+    display: inline !important;
 }
 
 #content .view-display-id-page_2 .views-row-1 .line {
@@ -454,6 +466,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
     position: absolute;
     margin-left: 400px;
     margin-top: -17px;
+}
+.line{
+    margin-left: 0px !important;
+    width: 100% !important;
 }
 
 .view-products .views-field-title,
@@ -494,7 +510,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
 
 .view-products .views-field-body,
 .node .field-name-body {
-    width: 640px;
     margin-left: 275px;
     margin-top: -140px;
     font-family: 'OpenSans';
@@ -509,11 +524,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
     font-family: 'OpenSans';
 }
 
-
 .view-products .views-field-view-node {
     color: #4b4949;
     font-size: 12px;
-    padding: 5px 14px;
     background: -moz-linear-gradient(
             top,
             #d2d0cb 0%,
@@ -535,7 +548,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explor
     box-shadow:
     0px 2px 0px rgba(75,73,73,1),
     inset 0px 0px 0px rgba(255,255,255,1);
-    margin-left: 825px;
+    float: right;
 }
 
 
