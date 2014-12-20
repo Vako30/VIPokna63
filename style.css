@@ -911,9 +911,8 @@ div.what3 {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
     width: 280px;
-    height: 57px;
-    margin-left: 4px;
-    margin-top: 124px;
+    height: 70px;
+    margin-top: 108px;
     text-align: left;
     padding-top: 3px;
 }
@@ -924,15 +923,20 @@ div.what3 {
 
 .view-photogallery-page .views-field-field-description-gallery {
     font-family: 'OpenSans';
-    margin-top: 145px;
+    margin-top: 130px;
     width: 280px;
     margin-left: 10px;
     text-align: left;
 }
 
+.galleries{
+    text-align: center;
+}
+
 .view-photogallery-page .views-row {
     display: inline-block;
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 .views-field-field-photos-gallery a {
